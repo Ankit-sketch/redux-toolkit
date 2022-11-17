@@ -5,6 +5,7 @@ import { Provider } from "react-redux";
 import store from "./store/store";
 import Home from "./pages/home";
 import Cart from "./pages/cart";
+import Login from "./pages/login.js";
 import Navbar from "./components/Navbar";
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />}></Route>
             <Route path="/cart" element={<Cart />}></Route>
+            <Route path="/login" element={<Login />}></Route>
           </Routes>
         </BrowserRouter>
       </Provider>

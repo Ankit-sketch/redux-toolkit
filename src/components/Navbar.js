@@ -20,6 +20,9 @@ const Navbar = () => {
         <Link className="navLink" to="/cart">
           Cart
         </Link>
+        <Link className="navLink" to="/login">
+          Login
+        </Link>
         <span className="cartCount">Cart items: {items.length}</span>
       </div>
     </div>
